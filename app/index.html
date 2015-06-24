@@ -21,5 +21,13 @@
     <script src="assets/sound-cloud.js"></script>
 
     {{content-for 'body-footer'}}
+
+    <script src="//connect.soundcloud.com/sdk-2.0.0.js"></script>
+    <script>
+      SC.initialize({
+        client_id: "f3295f8663e05856bfced82ece0ebc96",
+        redirect_uri: "http://example.com/callback",
+      });
+    </script>
   </body>
 </html>
