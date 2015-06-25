@@ -25,6 +25,12 @@ $gutter: 0em;
     border-right: none;
   }
 
+    .artwork-img {
+      max-height: 100%;
+      max-width: 100%;
+      margin: 2em 5em;
+    }
+
     .title-artist {
       @include span-columns(8 of 12);
       @include omega;
