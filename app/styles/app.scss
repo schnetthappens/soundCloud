@@ -52,3 +52,16 @@ $gutter: 0em;
       border: 1px solid grey;
       border-top: none;
     }
+
+    .track-stats,
+    .track-name-artist {
+      list-style: none;
+      margin: 0 auto;
+      padding-left: 0;
+    }
+
+    .track-stats li,
+    .track-name-artist li {
+      display: inline-block;
+      padding-left: 7em;
+    }
