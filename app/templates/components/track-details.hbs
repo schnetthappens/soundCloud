@@ -1,5 +1,14 @@
 <ul class="track-stats">
-  <li><i class="fa fa-soundcloud"></i></li>
-  <li><p class="plays"># of plays</p></li>
-  <li><p class="loves">Loves</p></li>
+  <li>
+    <i class="fa fa-soundcloud"><a href="https://soundcloud.com/stream"></a></i>
+    </li>
+  <li><p class="plays">BUY</p></li>
+  <li>
+    <i class="fa fa-play-circle"></i>
+    <p class="plays">{{model.playback_count}}</p>
+  </li>
+  <li>
+    <i class="fa fa-heart"></i>
+    <p class="loves">{{model.favoritings_count}}</p>
+  </li>
 </ul>
