@@ -34,7 +34,7 @@ $gutter: 0em;
       border: 1px solid grey;
     }
 
-    .scrubber {
+    .song-scrubber {
       @include span-columns(8 of 12);
       @include omega;
       background-color: #fff;
